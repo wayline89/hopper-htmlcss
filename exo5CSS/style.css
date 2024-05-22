@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+
+.grid1{
+    position: relative;
+    width: 748px;
+    height: 748px;
+    background-color: #F0F1EB;
+    /* border: solid 1px blue; */
+}
+
+.grid2{
+    position: absolute;
+    width: 320px;
+    height: 414px;
+    background-color: #E72F24;
+    top: 0%;
+}
+
+.grid3{
+    position: absolute;
+    width: 9px;
+    height: 750px;
+    background-color: black;
+    top: 0%;
+    left: 320px;
+}
+
+.grid4{
+    position: absolute;
+    width: 750px;
+    height: 9px;
+    background-color: black;
+    top: 414PX;
+    left: 0px;
+}
+
+.grid5{
+    position: absolute;
+    width: 698px;
+    height: 9px;
+    background-color: black;
+    top: 719px ;
+}
+
+.grid6{
+    position: absolute;
+    width: 50px;
+    height: 9px;
+    background-color: black;
+    top: 573px;
+    left:700px;
+}
+
+.grid7{
+    position: absolute;
+    width: 9px;
+    height: 334px;
+    background-color: black;
+    top: 415px;
+    left: 698px;
+}
+
+
+.grid8{
+    position: absolute;
+    top: 728px;
+    width: 198px;
+    height: 21px;
+    left: 329px;
+    background-color: yellowgreen;
+}
+
+.grid9{
+    position: absolute;
+    top: 728px;
+    width: 172px;
+    height: 21px;
+    left: 527px;
+    background-color: #202124;
+}
+
+.grid10{
+    position: absolute;
+    top: 728px;
+    width: 9px;
+    height: 21px;
+    left: 527px;
+    background-color: black;
+}
+
+.grid11{
+    position: absolute;
+    top: 423px;
+    width: 44px;
+    height: 150px;
+    left: 706px;
+    background-color: blue;
+}

@@ -1,0 +1,54 @@
+@media only screen and (max-width: 310px) {
+
+    h2 {
+        display: none;
+    }
+
+    body .a {
+        display: block;
+        background-color: gold;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 311px ) {
+
+
+
+    h2 {
+        display: none;
+    }
+
+    body .b {
+        display: block;
+        background-color: pink;
+      
+
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px ) {
+
+    h2 {
+        display: none;
+    }
+
+    body .c {
+        display: block;
+        background-color: chocolate;
+
+    }
+
+}
+
+@media only screen and (max-width: 1200px)and (min-width: 1025px ) {
+    h2 {
+        display: none;
+    }
+    body .d {
+        display: block;
+        background-color: cadetblue;
+    }
+}

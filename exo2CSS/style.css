@@ -1,0 +1,78 @@
+body {
+    all: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    background-color: rgb(52, 52, 52);
+    color: white;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+h1 { background-color: rgb(99, 95, 95);
+padding: 30px;
+font-size: 45px;
+letter-spacing: 2px;
+font-weight : 300; 
+border-bottom: 1px solid white;
+
+}
+
+h1 span {
+    color: #ffb30e;
+    font-weight: bold
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+letter-spacing: 1px;
+line-height: 32px;
+text-transform: uppercase;
+font-style: italic;
+}
+
+p span{
+    font-weight: bold;
+    color: #ffb30e;
+}
+
+a {
+    background-color: #ffaf03;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #fbca62;
+}
+
+
+/* 
+p.teest {
+    font-weight: 300;
+}
+
+p.teest2 {
+    font-weight: 400;
+}
+
+p.teest3 {
+    font-weight: 700;
+} */
+
+/* 
+
+font-family:'Open Sans' , sans-serif;
+
+For light: font-weight : 300; 
+
+For normal: font-weight : 400;
+
+For bold: font-weight : 700;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,400,700;1,300,400,700&display=swap');

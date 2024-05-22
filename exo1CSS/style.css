@@ -1,0 +1,38 @@
+body {
+    background-color: hsl(39, 6%, 83%);
+
+}
+
+h1 {
+    color: rgb(12, 37, 134);
+}
+
+h1 span {
+    color: #d69e36;
+}
+
+ul:first-of-type span {
+    color: rgb(134, 12, 110);
+}
+
+ul:first-child span {
+    color: yellow;
+
+}
+
+ul:first-child {
+    background-color: hsl(39, 21%, 73%);
+}
+
+ul:first-child li:nth-child(2) {
+    background-color: rgb(14, 86, 96);
+}
+
+ul:first-child li:nth-child(2) {
+    background-color: purple
+}
+
+.content,
+.content a {
+    color: darkcyan;
+}
